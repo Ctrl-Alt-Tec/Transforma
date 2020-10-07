@@ -33,7 +33,19 @@ Creación de sitio web estilo blog.
 
 ### Diseño
 [Link para más detalles](https://drive.google.com/file/d/1rsLfMgI-iAeSjb-EaTq1FgPUeRPh9E8K/view?usp=sharing)
+
 Verde y azúl.
+#### Paleta:
+* #AAEBE9
+* #66C8C0
+* #8FDD70
+* #86f6f2
+* #7ED957
+##### Adicionales:
+* #DAF8CD
+* #FFFAB4
+* #CCC6FF
+
 Footer de Ctrl Alt Tec
 
 ---
