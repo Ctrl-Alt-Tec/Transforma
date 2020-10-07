@@ -32,9 +32,9 @@ Creación de sitio web estilo blog.
 ---
 
 ### Diseño
-[Link 1 para más detalles](https://drive.google.com/file/d/1rsLfMgI-iAeSjb-EaTq1FgPUeRPh9E8K/view?usp=sharing)
+[Logo 1 (PDF)](https://drive.google.com/file/d/1rsLfMgI-iAeSjb-EaTq1FgPUeRPh9E8K/view?usp=sharing)
 
-[Link 2 para más detalles](https://drive.google.com/file/d/14SiuLvNhBfEukxQeQS-HqECk9K0vcIlN/view?usp=sharing)
+[Logo 1 (PNG)](https://drive.google.com/file/d/14SiuLvNhBfEukxQeQS-HqECk9K0vcIlN/view?usp=sharing)
 
 Verde y azúl.
 #### Paleta:
