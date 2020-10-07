@@ -34,6 +34,7 @@ Creación de sitio web estilo blog.
 ### Diseño
 [Link para más detalles](https://drive.google.com/file/d/1rsLfMgI-iAeSjb-EaTq1FgPUeRPh9E8K/view?usp=sharing)
 Verde y azúl.
+Footer de Ctrl Alt Tec
 
 ---
 
