@@ -21,3 +21,10 @@ a.nav{
 	color: black;
 	font-size: 2rem;
 }
+
+section{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}

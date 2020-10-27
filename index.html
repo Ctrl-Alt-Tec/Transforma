@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Transforma CSF</title>
-    <meta content="./img/logo.png" itemprop="image" /> <!--- Favicon en inicio --->
-    <link rel="icon" type="image/png" href="./img/logo.png" /> <!--- Favicon en general --->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="calendar.css">
+	<script src="index.js"></script>
+	<title>Transforma CSF</title>
+	<meta content="./img/logo.png" itemprop="image" /> <!--- Favicon en inicio --->
+	<link rel="icon" type="image/png" href="./img/logo.png" /> <!--- Favicon en general --->
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"><!-- FONT font-family: 'Source Sans Pro', sans-serif; -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"><!-- FONT font-family: 'Source Sans Pro', sans-serif; -->
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 3rem">Transforma Santa Fe</h1>
-    <nav>
-        <a href="./index.html" class="nav">Inicio</a>
-        <a href="./conocenos.html" class="nav">Conócenos</a>
-        <a href="./social.html" class="nav">Social</a>
-        <a href="./medio_ambiental.html" class="nav">Medio Ambiental</a>
-    </nav>
+	<h1 style="text-align: center; font-size: 3rem">Transforma Santa Fe</h1>
+	<nav>
+		<a href="./index.html" class="nav">Inicio</a>
+		<a href="./conocenos.html" class="nav">Conócenos</a>
+		<a href="./social.html" class="nav">Social</a>
+		<a href="./medio_ambiental.html" class="nav">Medio Ambiental</a>
+	</nav>
+	<section style="width: 100%; height: 3rem;"></section>
+	<!-- Calendario e imagen transforma-->
+	<section>
+		<!--calendar-->
+		<div style="width: 50%; padding:1rem;">
+			<div class="month" id="month">
+			</div>
 
-    <!--Made with love by Ctrl-->
-    <footer style="font-size: 1rem; color: rgb(100, 100, 100); text-align: center;">
-        <p>
-            Made with 💙 by <a href="https://ctrl-alt-tec.hackclub.com">Ctrl Alt Tec</a>
-        </p><br/>
-    </footer>
+			<ul class="weekdays">
+				<li>Dom</li>
+				<li>Lun</li>
+				<li>Mar</li>
+				<li>Mie</li>
+				<li>Jue</li>
+				<li>Vie</li>
+				<li>Sab</li>
+			</ul>
+
+			<ul class="days" id="days">
+			</ul>
+		</div>
+		<script src="calendar.js"></script>
+
+		<div style="width: 50%; height: auto; background: #ddd; padding: 1rem;">
+			<!--<p style="text-align: center;">Image Not Found</p><br/>
+			<p style="text-align: center;">Necesitamos la foto @JorgeP</p> -->
+			<img src="./img/logo.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%"/>
+		</div>
+	</section>
+	<!-- post ig, social, medio_ambiental-->
+	<section>
+
+	</section>
+
+	<!--Made with love by Ctrl-->
+	<footer style="font-size: 1rem; color: rgb(100, 100, 100); text-align: center;">
+		<p>
+			Made with 💙 by <a href="https://ctrl-alt-tec.hackclub.com">Ctrl Alt Tec</a>
+		</p><br/>
+	</footer>
 </body>
 </html>
