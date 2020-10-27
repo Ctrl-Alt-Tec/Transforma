@@ -66,9 +66,10 @@ document.getElementById("month").innerHTML = `
 					<li>${month}<br><span style="font-size:18px">${date.getFullYear()}</span></li>
 				</ul>`;
 
-
-for(let i = 0; i < date.getDay(); i++){
-	document.getElementById('days').innerHTML+= `<li></li>`
+if(date.getDay() != 6){
+	for(let i = -1; i < date.getDay(); i++){
+		document.getElementById('days').innerHTML+= `<li></li>`
+	}
 }
 for(let i = 1; i <= monthDays; i++) {
 	if (i == date.getDate()){
