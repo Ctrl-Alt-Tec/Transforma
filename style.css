@@ -7,7 +7,17 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1{
+	font-size: 3rem;
+	text-align: center;
+}
+
+h2{
+	font-size: 2rem;
+}
+
 nav{
+	top: 0;
 	display: flex;
 	justify-content:space-around;
 	align-items:center;
@@ -33,4 +43,17 @@ section{
 section div{
 	padding: 1rem;
 	width: 100%;
+}
+
+img.mesa{
+	height: 15rem;
+	border-radius: 7.5rem;
+}
+
+div.mesa{
+	display: flex;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
