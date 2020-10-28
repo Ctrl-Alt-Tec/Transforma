@@ -25,6 +25,7 @@ nav{
 	height: 4rem;
 	background-color: #7ed957;
 	position: sticky;
+	z-index: 999;
 }
 
 a.nav{
